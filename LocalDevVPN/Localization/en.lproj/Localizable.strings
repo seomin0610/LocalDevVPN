@@ -1,5 +1,7 @@
 /* MARK: Start Screen */
 
+"current_status" = "Current status";
+
 "disconnected" = "Disconnected";
 "connecting" = "Connecting";
 "connected" = "Connected";
@@ -9,11 +11,27 @@
 "local_tunnel_active" = "Local Tunnel Active";
 "local_tunnel_inactive" = "Local Tunnel Inactive";
 
+"connected_to_10.7.0.1" = "Connected to 10.7.0.1";
+"macos_might_ask_you_to_approve_the_vpn" = "macOS might ask you to approve the VPN";
+"disconnecting_safely" = "Disconnecting safely…";
+"open_settings_to_review_details" = "Open Settings to review details";
+"tap_connect_to_create_the_tunnel" = "Tap connect to create the tunnel";
+
+"connection" = "connection";
+"start_or_stop_the_secure_local_tunnel" = "Start or stop the secure local tunnel.";
+
 "connect" = "Connect";
 "disconnect" = "Disconnect";
 "connecting_ellipsis" = "Connecting...";
 "disconnecting_ellipsis" = "Disconnecting...";
 "server_address_name" = "LocalDevVPN Local Tunnel";
+
+"auto-connect_on_launch" = "Auto-connect on launch";
+"resume_your_last_state_automatically" = "Resume your last state automatically.";
+
+"session_details" = "Session details";
+"live_stats_while_the_tunnel_is_connected" = "Live stats while the tunnel is connected.";
+"local_device_ip" = "Local device IP";
 
 "local_tunnel_details" = "Tunnel Details";
 "time_connected" = "Time Connected";

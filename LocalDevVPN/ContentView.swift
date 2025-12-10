@@ -759,7 +759,7 @@ struct StatusOverviewCard: View {
     var body: some View {
         DashboardCard {
             VStack(alignment: .leading, spacing: 18) {
-                Text("Current status")
+                Text("current_status")
                     .font(.headline)
 
                 HStack(spacing: 18) {
@@ -796,15 +796,15 @@ struct StatusOverviewCard: View {
     private var statusTip: String {
         switch tunnelManager.tunnelStatus {
         case .connected:
-            return NSLocalizedString("Connected to 10.7.0.1", comment: "")
+            return NSLocalizedString("connected_to_10.7.0.1", comment: "")
         case .connecting:
-            return NSLocalizedString("macOS might ask you to approve the VPN", comment: "")
+            return NSLocalizedString("macos_might_ask_you_to_approve_the_vpn", comment: "")
         case .disconnecting:
-            return NSLocalizedString("Disconnecting safely", comment: "")
+            return NSLocalizedString("disconnecting_safely", comment: "")
         case .error:
-            return NSLocalizedString("Open Settings to review details", comment: "")
+            return NSLocalizedString("open_settings_to_review_details", comment: "")
         default:
-            return NSLocalizedString("Tap connect to create the tunnel", comment: "")
+            return NSLocalizedString("tap_connect_to_create_the_tunnel", comment: "")
         }
     }
 }
@@ -848,9 +848,9 @@ struct ConnectivityControlsCard: View {
         DashboardCard {
             VStack(alignment: .leading, spacing: 18) {
                 VStack(alignment: .leading, spacing: 4) {
-                    Text("Connection")
+                    Text("connection")
                         .font(.headline)
-                    Text("Start or stop the secure local tunnel.")
+                    Text("start_or_stop_the_secure_local_tunnel")
                         .font(.footnote)
                         .foregroundColor(.secondary)
                 }
@@ -859,9 +859,9 @@ struct ConnectivityControlsCard: View {
 
                 Toggle(isOn: $autoConnect) {
                     VStack(alignment: .leading, spacing: 2) {
-                        Text("Auto-connect on launch")
+                        Text("auto-connect_on_launch")
                             .fontWeight(.semibold)
-                        Text("Resume your last state automatically.")
+                        Text("resume_your_last_state_automatically")
                             .font(.caption)
                             .foregroundColor(.secondary)
                     }
@@ -972,9 +972,9 @@ struct ConnectionStatsView: View {
         DashboardCard {
             VStack(alignment: .leading, spacing: 18) {
                 VStack(alignment: .leading, spacing: 4) {
-                    Text("Session details")
+                    Text("session_details")
                         .font(.headline)
-                    Text("Live stats while the tunnel is connected.")
+                    Text("live_stats_while_the_tunnel_is_connected")
                         .font(.footnote)
                         .foregroundColor(.secondary)
                 }
@@ -994,24 +994,24 @@ struct ConnectionStatsView: View {
 
                 Divider()
 
-                Text("Network configuration")
+                Text("network_configuration")
                     .font(.caption)
                     .foregroundColor(.secondary)
 
                 ConnectionInfoRow(
-                    title: "Local device IP",
+                    title: "local_device_ip",
                     value: deviceIP,
                     icon: "desktopcomputer"
                 )
 
                 ConnectionInfoRow(
-                    title: "Tunnel IP",
+                    title: "tunnel_ip",
                     value: fakeIP,
                     icon: "point.3.filled.connected.trianglepath.dotted"
                 )
 
                 ConnectionInfoRow(
-                    title: "Subnet mask",
+                    title: "subnet_mask",
                     value: subnetMask,
                     icon: "network"
                 )

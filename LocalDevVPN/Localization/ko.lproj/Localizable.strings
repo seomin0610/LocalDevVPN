@@ -1,5 +1,7 @@
 /* MARK: Start Screen */
 
+"current_status" = "현재 상태";
+
 "disconnected" = "연결 끊김";
 "connecting" = "연결중";
 "connected" = "연결됨";
@@ -9,11 +11,27 @@
 "local_tunnel_active" = "로컬 터널 활성화됨";
 "local_tunnel_inactive" = "로컬 터널 비활성화됨";
 
+"connected_to_10.7.0.1" = "10.7.0.1에 연결됨";
+"macos_might_ask_you_to_approve_the_vpn" = "macOS에서 VPN 승인 요청이 나타날 수 있습니다";
+"disconnecting_safely" = "안전하게 연결 해제 중…";
+"open_settings_to_review_details" = "자세한 내용을 보려면 설정을 여세요";
+"tap_connect_to_create_the_tunnel" = "터널을 생성하려면 연결을 누르세요";
+
+"connection" = "연결";
+"start_or_stop_the_secure_local_tunnel" = "보안 로컬 터널을 시작하거나 중지합니다.";
+
 "connect" = "연결";
 "disconnect" = "연결 끊기";
 "connecting_ellipsis" = "연결중...";
 "disconnecting_ellipsis" = "연결 해제 중...";
 "server_address_name" = "LocalDevVPN 로컬 터널";
+
+"auto-connect_on_launch" = "실행 시 자동 연결";
+"resume_your_last_state_automatically" = "마지막 상태를 자동으로 재개합니다.";
+
+"session_details" = "세션 세부사항";
+"live_stats_while_the_tunnel_is_connected" = "터널이 연결된 동안 실시간 통계";
+"local_device_ip" = "로컬 기기 IP";
 
 "local_tunnel_details" = "터널 정보";
 "time_connected" = "연결 지속 시간";
